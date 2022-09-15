@@ -1,12 +1,11 @@
 import React from "react";
-import { Nav } from "./components";
+import { Navi } from "./components";
 import { Home, Login, Register } from "./pages";
 
 function App() {
   return (
     <>
-      {/* <Nav />
-      <Home /> */}
+      <Navi />
       {/* <Login /> */}
       <Register />
     </>
