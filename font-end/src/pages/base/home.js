@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <>
       <div className="home-container">
-        <div className="home">
+        <div className="text-center text-md-right">
           <div className="home-text">
             <p>Welcome to my page. This is Remember Demo page</p>
           </div>
@@ -16,7 +16,7 @@ export const Home = () => {
           </div>
           <div className="link-to-register-page">
             <p>
-              Don't have account yet? <a href="#">Create one.</a>
+              Don't have account yet? <a href="/register">Create one.</a>
             </p>
           </div>
         </div>
